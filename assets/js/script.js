@@ -40,7 +40,7 @@ function countdown() {
       timerEl.innerText = ''
       displayMessage()
     }
-  }, 340);
+  }, 350);
 }
 
 // Displays the message one word at a time
@@ -60,6 +60,6 @@ function displayMessage() {
       mainEl.textContent = words[wordCount];
       wordCount++;
     }
-  }, 170);
+  }, 185);
 }
 
